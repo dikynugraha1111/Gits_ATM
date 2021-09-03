@@ -33,7 +33,7 @@ void menu(String name, int balance, int i) {
         print("Maaf Saldo anda kurang, Harap isi terlebih dahulu");
         return menu(name, balance, i);
       } else {
-        var nameTf = name == "Bambang" ? "Bambang" : "Sumini";
+        var nameTf = name == "Bambang" ? "Sumini" : "Bambang";
         print("Anda akan TF ke ${nameTf} Sejumlah ${tranfer}");
         balance = balance - tranfer;
         balanced[i] = balance;
